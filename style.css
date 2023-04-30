@@ -1,0 +1,97 @@
+/*Aquí va el comentario*/
+body{
+    margin: 5%;
+    /*RGB red green blue*/
+    background-color:hsla(36, 93%, 42%, 0.934);
+    color: rgb(26, 26, 109);
+    font-family: 'Courgette', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+p {
+    color: rgb(121, 9, 9);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+/*Para agregar clase, ponemos ( . )
+antes del nombre*/
+.titulo-web{
+    color: rgb(242, 235, 240);
+    font-size:90px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+img{
+    width: 350px ; /*width- ancho*/
+    height:400px;  /*height-altura*/
+    border-radius: 50px;
+}
+.perrito-2{
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+}
+.perrito-bonito{
+    width: 400px;
+    height: 250px;
+}
+.titulo-web h2{
+    font-family: 'Share Tech Mono', monospace;
+}
+h3{
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.lista{
+    font-size: 3.2rem;
+    color: rgb(233, 242, 243);
+}
+em{
+    font-size: 1.9rem;
+}
+ul{
+    font-size: 1.5rem;   
+}
+img .juguetes{
+    width: 30px ; /*width- ancho*/
+    height:400px;  /*height-altura*/
+    border-radius: 50px;
+}
+.lista-odian{
+    font-size: 3.2rem;
+    color: rgb(233, 242, 243);
+}
+ol{
+    font-size: 1.5rem;
+}
+.imagenes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between; 
+}
+.imagenes2{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.texto1{
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.parrafos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
